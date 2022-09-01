@@ -4,6 +4,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Firstly create react app tempalte type typescript
+### `npx create-react-app my-app --template typescript`
+
+then, switch to directory
+### `cd <Directory Name>`
+
+then,install tailwind
+
+### `npm install -D tailwindcss postcss autoprefixer`
+### `npx tailwindcss init -p`
+
+then,
+
+
+### `npx create-react-app my-app --template typescript`
+
 In the project directory, you can run:
 
 ### `npm start`
