@@ -1,12 +1,14 @@
 import React from 'react';
-import {ConditionalButton} from './components/styles'
+import {ConditionalButton,FlexBox} from './components/styles';
 function App() {
   return (
-    <div>
+  <div className={'flex'}>
+ <FlexBox row justify="end" >
    <ConditionalButton isRed >
      Submit
    </ConditionalButton>
-    </div>
+   </FlexBox>
+   </div>
   );
 }
 
